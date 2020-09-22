@@ -85,11 +85,6 @@
           <xsl:apply-templates css:select="#content" />
         </div>
       </div>
-<!--      <footer class="row">
-        <div class="col-xs-12 col-sm-12">
-          <xsl:copy-of css:select="#viewlet-below-content" />
-        </div>
-  </footer> -->
     </div>
   </replace>
 
@@ -98,7 +93,7 @@
 
   <!-- Left column -->
   <rules css:if-content="#portal-column-one">
-    <replace css:theme="#column1-container">
+    <replace css:theme="#column2-container">
       <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
         <aside id="portal-column-one">
           <xsl:copy-of css:select="#portal-column-one > *" />
@@ -106,18 +101,23 @@
       </div>
     </replace>
   </rules>
-
+  <rules css:if-not-content="#portal-column-one">
+    <drop css:theme="#column2-container"/>
+  </rules>  
+  
   <!-- Right column -->
   <rules css:if-content="#portal-column-two">
-    <replace css:theme="#column2-container">
-      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" role="complementary">
+    <replace css:theme="#column1-container">
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
         <aside id="portal-column-two">
           <xsl:copy-of css:select="#portal-column-two > *" />
         </aside>
       </div>
     </replace>
   </rules>
-
+  <rules css:if-not-content="#portal-column-two">
+    <drop css:theme="#column1-container"/>
+  </rules>  
   <!-- Content header -->
   <replace css:theme="#portal-top" css:content-children="#portal-top" />
 
