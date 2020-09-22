@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '2.0'
 
 setup(name='emc.theme',
       version=version,
@@ -38,6 +38,4 @@ setup(name='emc.theme',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-#      setup_requires=["PasteScript"],
-#      paster_plugins=["ZopeSkel"],
       )
