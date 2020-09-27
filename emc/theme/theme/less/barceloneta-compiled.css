@@ -4860,4 +4860,13 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
+#subject li {
+  display: inline;
+}
+#subject .first {
+  margin-right: 1em;
+}
+#content-core .pat-structure .navbar {
+  z-index: 4;
+}
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */
