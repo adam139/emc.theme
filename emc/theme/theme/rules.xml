@@ -7,6 +7,9 @@
 
   <theme href="index.html" />
   <notheme css:if-not-content="#visual-portal-wrapper" />
+  <!-- cancel  self.request.response.setHeader('X-Theme-Disabled', '1') ,using following:-->
+  <notheme css:if-content=".template-theming-controlpanel" />
+  
 
   <rules css:if-content="#portal-top">
     <!-- Attributes -->
