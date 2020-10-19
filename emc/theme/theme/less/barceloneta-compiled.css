@@ -3254,10 +3254,22 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-pro
   content: '\e823';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-team:before {
+  content: '\e828';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-team2:before {
   content: '\e834';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-doc:before {
-  content: '\e80e';
+  content: '\e807';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-making:before {
+  content: '\e816';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-file:before {
+  content: '\e811';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-image:before {
+  content: '\e810';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-workspace:before {
   content: '\e801';
@@ -3353,10 +3365,22 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-project
   content: '\e823';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-team:after {
+  content: '\e828';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-team2:after {
   content: '\e834';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-doc:after {
-  content: '\e80e';
+  content: '\e807';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-making:after {
+  content: '\e816';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-file:after {
+  content: '\e811';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-image:after {
+  content: '\e810';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-workspace:after {
   content: '\e801';
