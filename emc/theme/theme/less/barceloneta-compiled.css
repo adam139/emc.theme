@@ -339,12 +339,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #007bb1;
+  color: #5e1900;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #004665;
+  color: #120500;
   text-decoration: underline;
 }
 a:focus {
@@ -419,7 +419,7 @@ h1 a:focus,
 h2 a:focus,
 h3 a:focus {
   text-decoration: none;
-  border-bottom: 2px #004665 solid;
+  border-bottom: 2px #120500 solid;
 }
 h4,
 h5,
@@ -2241,7 +2241,7 @@ fieldset[disabled] .link-parent.active {
   padding: 0 !important;
 }
 .plone-breadcrumb ol a {
-  color: #086ca3;
+  color: #8e2600;
 }
 .plone-breadcrumb ol > #breadcrumbs-current {
   color: #777777;
@@ -2266,7 +2266,7 @@ fieldset[disabled] .link-parent.active {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #007bb1;
+  color: #5e1900;
   background-color: #fff;
   border: 1px solid #e5e5e5;
   margin-left: -1px;
@@ -2282,7 +2282,7 @@ fieldset[disabled] .link-parent.active {
 }
 .listingBar > li a:hover,
 .listingBar > li a:focus {
-  color: #004665;
+  color: #120500;
   background-color: #f2f1f1;
   border-color: 1px solid #e5e5e5;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2294,8 +2294,8 @@ fieldset[disabled] .link-parent.active {
   z-index: 2;
   font-weight: 300;
   color: #fff;
-  background-color: #007bb1;
-  border-color: #007bb1;
+  background-color: #5e1900;
+  border-color: #5e1900;
   cursor: default;
 }
 .listingBar > .disabled > a,
@@ -2467,7 +2467,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portalMessage a {
   font-weight: 300;
-  color: #005074;
+  color: #210900;
 }
 .portalMessage > strong:before,
 .portalMessage > dt:before {
@@ -2575,7 +2575,7 @@ fieldset[disabled] .link-parent.active {
   color: #696969;
 }
 .portlet .portletHeader > a {
-  color: #086ca3;
+  color: #8e2600;
 }
 .portlet.portletCalendar .portletHeader {
   text-align: center;
@@ -2627,7 +2627,7 @@ fieldset[disabled] .link-parent.active {
   padding: 10px 15px 26px 30px;
   position: relative;
   z-index: 1;
-  color: #086ca3;
+  color: #8e2600;
 }
 .portlet .portletContent > ul > li > a {
   border-top: 1px solid #e5e5e5;
@@ -2724,7 +2724,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portlet .portletContent table .cal_next_month.cal_has_events > a:hover,
 .portlet .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004665;
+  color: #120500;
 }
 .portlet .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 .portlet .portletContent table .cal_prev_month.cal_has_events > a:hover:after {
@@ -2869,7 +2869,7 @@ fieldset[disabled] .link-parent.active {
   color: #696969;
 }
 .managedPortlet .portletHeader > a {
-  color: #086ca3;
+  color: #8e2600;
 }
 .managedPortlet.portletCalendar .portletHeader {
   text-align: center;
@@ -2921,7 +2921,7 @@ fieldset[disabled] .link-parent.active {
   padding: 10px 15px 26px 30px;
   position: relative;
   z-index: 1;
-  color: #086ca3;
+  color: #8e2600;
 }
 .managedPortlet .portletContent > ul > li > a {
   border-top: 1px solid #e5e5e5;
@@ -3018,7 +3018,7 @@ fieldset[disabled] .link-parent.active {
 }
 .managedPortlet .portletContent table .cal_next_month.cal_has_events > a:hover,
 .managedPortlet .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004665;
+  color: #120500;
 }
 .managedPortlet .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 .managedPortlet .portletContent table .cal_prev_month.cal_has_events > a:hover:after {
@@ -3182,7 +3182,7 @@ fieldset[disabled] .link-parent.active {
 }
 a.link-category:hover,
 a.link-category:focus {
-  color: #007bb1;
+  color: #5e1900;
   text-decoration: none;
   cursor: pointer;
 }
@@ -3655,7 +3655,7 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-codefile:
 }
 .picker__list-item--highlighted:hover,
 .picker--focused .picker__list-item--highlighted {
-  background: #007bb1;
+  background: #5e1900;
   color: #fff;
 }
 li.picker__list-item {
@@ -3709,7 +3709,7 @@ ul.picker__list {
 }
 .picker__day--highlighted:hover,
 .picker__day--highlighted {
-  background: #007bb1;
+  background: #5e1900;
   color: #fff;
   font-weight: 600;
 }
@@ -3733,7 +3733,7 @@ ul.picker__list {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
 }
 .pat-tablesorter th:hover {
-  color: #007bb1;
+  color: #5e1900;
 }
 .pat-tablesorter .sortdirection {
   font-size: 75%;
@@ -3912,10 +3912,10 @@ ul.picker__list {
 .plone-nav > li > a:hover,
 .plone-nav > li > a:focus {
   text-decoration: none;
-  background-color: #7099bf;
+  background-color: #8e2600;
 }
 .plone-navbar {
-  background-color: #007bb1;
+  background-color: #5e1900;
   color: white;
   position: relative;
   min-height: 50px;
@@ -4012,8 +4012,8 @@ ul.picker__list {
   outline: 0;
 }
 .plone-navbar-toggle:hover {
-  background-color: #46739c;
-  border-color: #365979;
+  background-color: #421200;
+  border-color: #0f0400;
 }
 .plone-navbar-toggle .icon-bar:after {
   content: "Menu";
@@ -4040,7 +4040,7 @@ ul.picker__list {
 .plone-navbar-nav > .selected > a:hover,
 .plone-navbar-nav > .selected > a:focus {
   color: white;
-  background-color: #7099bf;
+  background-color: #8e2600;
 }
 @media (min-width: 768px) {
   .plone-navbar-nav {
@@ -4171,7 +4171,7 @@ a.plone-toolbar-logo {
 }
 #portal-footer-wrapper {
   padding: 30px 15px;
-  background-color: #2e3133;
+  background-color: #f0f0f0;
   color: #cccccc;
   text-align: center;
   clear: both;
@@ -4185,10 +4185,10 @@ a.plone-toolbar-logo {
   color: #cccccc;
 }
 #portal-footer-wrapper a {
-  color: #16a1e3;
+  color: #c43400;
 }
 #portal-footer-wrapper a:hover {
-  color: #57beef;
+  color: #ff5112;
 }
 #portal-footer-wrapper .portletWrapper {
   display: inline-block;
@@ -4280,7 +4280,7 @@ body.template-logged_out #content-core .portletHeader {
 }
 body.template-login_form #content-core .portletHeader > a,
 body.template-logged_out #content-core .portletHeader > a {
-  color: #086ca3;
+  color: #8e2600;
 }
 body.template-login_form #content-core.portletCalendar .portletHeader,
 body.template-logged_out #content-core.portletCalendar .portletHeader {
@@ -4343,7 +4343,7 @@ body.template-logged_out #content-core .portletContent > ul > li a {
   padding: 10px 15px 26px 30px;
   position: relative;
   z-index: 1;
-  color: #086ca3;
+  color: #8e2600;
 }
 body.template-login_form #content-core .portletContent > ul > li > a,
 body.template-logged_out #content-core .portletContent > ul > li > a {
@@ -4464,7 +4464,7 @@ body.template-login_form #content-core .portletContent table .cal_next_month.cal
 body.template-logged_out #content-core .portletContent table .cal_next_month.cal_has_events > a:hover,
 body.template-login_form #content-core .portletContent table .cal_prev_month.cal_has_events > a:hover,
 body.template-logged_out #content-core .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004665;
+  color: #120500;
 }
 body.template-login_form #content-core .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 body.template-logged_out #content-core .portletContent table .cal_next_month.cal_has_events > a:hover:after,
@@ -4579,7 +4579,7 @@ body.template-logged_out #content-core .portletFooter {
   overflow: hidden;
 }
 .cal_month {
-  background: #00b0fe;
+  background: #ab2d00;
   font-weight: 300;
   display: block;
   color: #fff;
@@ -4892,5 +4892,29 @@ body.template-logged_out #content-core .portletFooter {
 }
 #content-core .pat-structure .navbar {
   z-index: 4;
+}
+#edit-zone .plone-toolbar-logo {
+  background-color: #5e1900;
+}
+div#edit-zone .plone-toolbar-container {
+  background-color: #5e1900;
+}
+div#edit-zone .plone-toolbar-container a:hover {
+  background-color: #8e2600;
+}
+#edit-zone .plone-toolbar-container nav > ul > li.active > a {
+  background-color: #8e2600;
+}
+.plone-toolbar-left #edit-zone .plone-toolbar-container #personal-bar-container {
+  background-color: #5e1900;
+}
+.plone-toolbar-left #edit-zone nav > ul ul > * {
+  background-color: #5e1900;
+}
+.plone-toolbar-expanded #edit-zone .plone-toolbar-container li:not(.active) a:hover > span {
+  background-color: transparent;
+}
+.outer-wrapper nav#content-header .plone-navbar .navbar-fixed-top {
+  background-color: #5e1900;
 }
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */

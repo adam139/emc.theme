@@ -9,10 +9,13 @@
 @plone-gray-lighter:						lighten(#000, 80%);   // #ccc //disableds like
 
 //colors
-@plone-link-color:							#007bb1; //plone blue made slightly darker for wcag 2.0
-@plone-link-color-on-dark:					#16a1e3; //plone blue
+//@plone-link-color:							#007bb1; //plone blue made slightly darker for wcag 2.0
+@plone-link-color:							#5e1900; 
+//@plone-link-color-on-dark:					#16a1e3; //plone blue
+@plone-link-color-on-dark:					#c43400; 
 											//if you need different contrast
-@plone-link-color-on-grey:		  			#086ca3; //valid wcag 2.0
+//@plone-link-color-on-grey:		  			#086ca3; //valid wcag 2.0
+@plone-link-color-on-grey:		  			#8e2600; 
 @plone-default-published-color:				@plone-link-color; //published and external same color
 @plone-default-draft-color:					darken(@plone-toolbar-draft-color, 15%); // lime-yellow //draft is visible
 @plone-default-pending-color:				darken(@plone-toolbar-pending-color, 15%); // orange
@@ -24,7 +27,10 @@
 
 //*// SCAFFOLDING
 @plone-body-bg:            				     #fafafa; //almost-white
-@plone-footer-bg:            				 #2e3133; //blued-darkgray
+//@plone-body-bg:            				     #5e1900; //custom for dev branch
+
+//@plone-footer-bg:            				 #2e3133; //blued-darkgray
+@plone-footer-bg:            				 #f0f0f0; //custom for dev branch
 @plone-text-color:           				 @plone-gray-dark;
 @plone-link-hover-color:     				 darken(@plone-link-color, 15%);
 
@@ -263,7 +269,8 @@
 	@plone-sitenav-padding-vertical:          ((@plone-sitenav-height - @plone-line-height-computed) / 2);
 	@plone-sitenav-collapse-max-height:       340px;
 	@plone-sitenav-link-padding:              10px 15px;
-	@plone-sitenav-link-hover-bg:             #7099bf;
+	//@plone-sitenav-link-hover-bg:             #7099bf;
+	@plone-sitenav-link-hover-bg:             #8e2600;
 	@plone-sitenav-bg:      			      @plone-link-color;
 	@plone-sitenav-hover-bg:      			  @plone-link-color;
 
