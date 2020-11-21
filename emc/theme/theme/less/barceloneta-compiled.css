@@ -4915,7 +4915,7 @@ div#edit-zone .plone-toolbar-container a:hover {
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
   background-color: #5e1900;
-  border-color: #5e1900;
+  border-color: #120500;
 }
 .pattern-relateditems-container .pagination > .active > a,
 .pattern-relateditems-container .pagination > .active > span,
@@ -4942,6 +4942,19 @@ div#edit-zone .plone-toolbar-container a:hover {
 .pattern-relateditems-container .pat-structure .pagination > .active > a:focus,
 .pattern-relateditems-container .pat-structure .pagination > .active > span:focus {
   background-color: #5e1900;
-  border-color: #5e1900;
+  border-color: #120500;
+}
+.btn-primary {
+  background-color: #5e1900;
+  border-color: #120500;
+}
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus {
+  background-color: #8e2600;
+  border-color: #120500;
+}
+#history .panel-title > a {
+  color: #fff;
 }
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */
