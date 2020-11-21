@@ -1884,8 +1884,8 @@ button .badge {
 }
 .context {
   color: #fff;
-  background-color: #007bb1;
-  border-color: #00587e;
+  background-color: #5e1900;
+  border-color: #2b0b00;
 }
 .context:hover,
 .context:focus,
@@ -1893,8 +1893,8 @@ button .badge {
 .context.active,
 .open > .dropdown-toggle.context {
   color: #fff;
-  background-color: #00587e;
-  border-color: #002d41;
+  background-color: #2b0b00;
+  border-color: #000000;
 }
 .context:active,
 .context.active,
@@ -1916,11 +1916,11 @@ fieldset[disabled] .context:active,
 .context.disabled.active,
 .context[disabled].active,
 fieldset[disabled] .context.active {
-  background-color: #007bb1;
-  border-color: #00587e;
+  background-color: #5e1900;
+  border-color: #2b0b00;
 }
 .context .badge {
-  color: #007bb1;
+  color: #5e1900;
   background-color: #fff;
 }
 .destructive {
@@ -4896,25 +4896,52 @@ body.template-logged_out #content-core .portletFooter {
 #edit-zone .plone-toolbar-logo {
   background-color: #5e1900;
 }
-div#edit-zone .plone-toolbar-container {
-  background-color: #5e1900;
-}
 div#edit-zone .plone-toolbar-container a:hover {
   background-color: #8e2600;
 }
 #edit-zone .plone-toolbar-container nav > ul > li.active > a {
   background-color: #8e2600;
 }
-.plone-toolbar-left #edit-zone .plone-toolbar-container #personal-bar-container {
-  background-color: #5e1900;
-}
-.plone-toolbar-left #edit-zone nav > ul ul > * {
-  background-color: #5e1900;
-}
 .plone-toolbar-expanded #edit-zone .plone-toolbar-container li:not(.active) a:hover > span {
   background-color: transparent;
 }
 .outer-wrapper nav#content-header .plone-navbar .navbar-fixed-top {
   background-color: #5e1900;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #5e1900;
+  border-color: #5e1900;
+}
+.pattern-relateditems-container .pagination > .active > a,
+.pattern-relateditems-container .pagination > .active > span,
+.pattern-relateditems-container .pagination > .active > a:hover,
+.pattern-relateditems-container .pagination > .active > span:hover,
+.pattern-relateditems-container .pagination > .active > a:focus,
+.pattern-relateditems-container .pagination > .active > span:focus,
+.pat-structure .pagination > .active > a,
+.pat-structure .pagination > .active > span,
+.pat-structure .pagination > .active > a:hover,
+.pat-structure .pagination > .active > span:hover,
+.pat-structure .pagination > .active > a:focus,
+.pat-structure .pagination > .active > span:focus,
+.pat-structure .pattern-relateditems-container .pagination > .active > a,
+.pat-structure .pattern-relateditems-container .pagination > .active > span,
+.pat-structure .pattern-relateditems-container .pagination > .active > a:hover,
+.pat-structure .pattern-relateditems-container .pagination > .active > span:hover,
+.pat-structure .pattern-relateditems-container .pagination > .active > a:focus,
+.pat-structure .pattern-relateditems-container .pagination > .active > span:focus,
+.pattern-relateditems-container .pat-structure .pagination > .active > a,
+.pattern-relateditems-container .pat-structure .pagination > .active > span,
+.pattern-relateditems-container .pat-structure .pagination > .active > a:hover,
+.pattern-relateditems-container .pat-structure .pagination > .active > span:hover,
+.pattern-relateditems-container .pat-structure .pagination > .active > a:focus,
+.pattern-relateditems-container .pat-structure .pagination > .active > span:focus {
+  background-color: #5e1900;
+  border-color: #5e1900;
 }
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */
