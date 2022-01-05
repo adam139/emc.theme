@@ -4957,4 +4957,7 @@ div#edit-zone .plone-toolbar-container a:hover {
 #history .panel-title > a {
   color: #fff;
 }
+.section-project_folder #plone-contentmenu-workflow {
+  display: none;
+}
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */
