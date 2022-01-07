@@ -2499,8 +2499,8 @@ fieldset[disabled] .link-parent.active {
   margin: 15px;
 }
 .portalMessage.info {
-  background-color: #aad6ea;
-  border: 1px solid #9acee6;
+  background-color: #af684f;
+  border: 1px solid #a16049;
   color: rgba(0, 0, 0, 0.5);
 }
 .portalMessage.info > strong,
@@ -2509,7 +2509,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portalMessage.info > strong:before,
 .portalMessage.info > dt:before {
-  background-color: #3e7b91;
+  background-color: #472012;
   content: "i";
 }
 .portalMessage.warning {
