@@ -4960,4 +4960,18 @@ div#edit-zone .plone-toolbar-container a:hover {
 .section-project_folder #plone-contentmenu-workflow {
   display: none;
 }
+.plone-nav .dropdown-menu {
+  max-width: 180px;
+}
+.plone-nav .dropdown-menu .navTree {
+  padding-left: 1em;
+}
+.plone-nav .dropdown-menu .navTree.navTreeLevel1 {
+  padding-left: 2em;
+}
+.plone-nav .dropdown-menu li a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 /*# sourceMappingURL=++theme++emc.theme/less/barceloneta-compiled.css.map */
